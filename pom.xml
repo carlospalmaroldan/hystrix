@@ -64,8 +64,8 @@
                 <configuration>
                     <verbose>true</verbose>
                     <compilerVersion>1.6</compilerVersion>
-                    <source>7</source>
-                    <target>7</target>
+                    <source>8</source>
+                    <target>8</target>
                 </configuration>
             </plugin>
         </plugins>

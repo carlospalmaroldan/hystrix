@@ -13,6 +13,7 @@
       <module name="Hystrix" target="8" />
     </bytecodeTargetLevel>
   </component>
+  <component name="Encoding" addBOMForNewFiles="with NO BOM" />
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="InspectionProjectProfileManager">
     <profile version="1.0">
@@ -155,6 +156,30 @@
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+  </component>
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/HystrixTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="libraryTable">
     <library name="Maven: com.netflix.archaius:archaius-core:0.4.1">
