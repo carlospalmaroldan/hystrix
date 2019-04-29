@@ -1,3 +1,5 @@
+package first;
+
 public class RemoteServiceTestSimulator{
 
     private long wait;

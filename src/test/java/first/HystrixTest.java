@@ -1,9 +1,10 @@
+package first;
+
 import com.netflix.hystrix.HystrixCommand;
 import com.netflix.hystrix.HystrixCommandGroupKey;
 import com.netflix.hystrix.HystrixCommandProperties;
 import com.netflix.hystrix.HystrixThreadPoolProperties;
 import com.netflix.hystrix.exception.HystrixRuntimeException;
-import org.apache.log4j.BasicConfigurator;
 import org.junit.Test;
 
 import static org.hamcrest.core.IsEqual.equalTo;
@@ -96,12 +97,12 @@ public class HystrixTest {
         //the remote service call is short-circuited after just one call has resulted in an exception
         //that is the meaning of the property circuitBreakerRequestVolumeThreshold
         assertThat(this.invokeRemoteService(config, 10_000), equalTo(null));
-        /* assertThat(this.invokeRemoteService(config, 10_000), equalTo(null));
-        assertThat(this.invokeRemoteService(config, 10_000), equalTo(null));*/
+         assertThat(this.invokeRemoteService(config, 10_000), equalTo(null));
+        assertThat(this.invokeRemoteService(config, 10_000), equalTo(null));
 
         //If we don't wait for the remote service to be ready to provide answers again then the test fails
         //since hystrix has short-circuited it
-        //Thread.sleep(5000);
+        Thread.sleep(5000);
 
         assertThat(new RemoteServiceTestCommand(config, new RemoteServiceTestSimulator(500)).execute(),
             equalTo("Success"));

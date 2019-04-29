@@ -2,14 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bd4343d-86d0-436f-844b-1c1720c180c1" name="Default" comment="test demonstrating short-circuiting of a remote call">
+      <change afterPath="$PROJECT_DIR$/bookstore/bookstore.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore/src/main/java/bookstore/BookstoreApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reading/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reading/reading.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reading/src/main/java/reading/ReadingApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reading/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hystrix.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Hystrix.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hystrix.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/Hystrix.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hystrix.iws" beforeDir="false" afterPath="$PROJECT_DIR$/Hystrix.iws" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HystrixTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HystrixTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CommandHelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/first/CommandHelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CommandHelloWorldObservable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/first/CommandHelloWorldObservable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/first/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RemoteServiceTestCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/first/RemoteServiceTestCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RemoteServiceTestSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/first/RemoteServiceTestSimulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HystrixTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/first/HystrixTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CommandHelloWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CommandHelloWorldObservable$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CommandHelloWorldObservable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RemoteServiceTestCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RemoteServiceTestSimulator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/HystrixTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/reading/target/" />
+    <ignored path="$PROJECT_DIR$/bookstore/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,89 +43,96 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+            <state relative-caret-position="145">
+              <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/RemoteServiceTestCommand.java">
+        <entry file="file://$PROJECT_DIR$/reading/reading.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/first/HystrixTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+            <state relative-caret-position="1936">
+              <caret line="104" column="8" selection-start-line="104" selection-start-column="8" selection-end-line="104" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bookstore/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bookstore/src/main/java/bookstore/BookstoreApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#398#399#0" expanded="true" />
+                <element signature="e#509#510#0" expanded="true" />
+                <element signature="e#555#556#0" expanded="true" />
+                <element signature="e#626#627#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bookstore/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/HystrixTest.java">
+        <entry file="file://$PROJECT_DIR$/reading/src/main/java/reading/ReadingApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="116" column="11" selection-start-line="116" selection-start-column="11" selection-end-line="116" selection-end-column="11" />
+            <state relative-caret-position="335">
+              <caret line="18" column="57" lean-forward="true" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#711#712#0" expanded="true" />
+                <element signature="e#780#781#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/RemoteServiceTestSimulator.java">
+        <entry file="file://$PROJECT_DIR$/reading/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            <state relative-caret-position="440">
+              <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/CommandHelloWorldObservable.java">
+        <entry file="file://$PROJECT_DIR$/reading/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="22">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/CommandHelloWorld.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/first/RemoteServiceTestSimulator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-core/1.5.4/hystrix-core-1.5.4.jar!/com/netflix/hystrix/HystrixCommand.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-85">
-              <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/Observable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="836">
-              <caret line="61" column="13" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
+            <state relative-caret-position="44">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -134,8 +163,15 @@
         <option value="$PROJECT_DIR$/src/main/java/CommandHelloWorld.java" />
         <option value="$PROJECT_DIR$/src/main/java/CommandHelloWorldObservable.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/HystrixTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/first/HystrixTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/second/BookstoreApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/second/ReadingApplication.java" />
+        <option value="$PROJECT_DIR$/reading/pom.xml" />
+        <option value="$PROJECT_DIR$/reading/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/reading/src/main/java/reading/ReadingApplication.java" />
       </list>
     </option>
   </component>
@@ -178,17 +214,25 @@
             <path>
               <item name="Hystrix" type="b2602c69:ProjectViewProjectNode" />
               <item name="Hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="bookstore" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hystrix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="bookstore" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Hystrix" type="b2602c69:ProjectViewProjectNode" />
               <item name="Hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="bookstore" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Hystrix" type="b2602c69:ProjectViewProjectNode" />
               <item name="Hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="bookstore" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -196,24 +240,62 @@
             <path>
               <item name="Hystrix" type="b2602c69:ProjectViewProjectNode" />
               <item name="Hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="bookstore" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bookstore" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Hystrix" type="b2602c69:ProjectViewProjectNode" />
               <item name="Hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="bookstore" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hystrix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="reading" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hystrix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="reading" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hystrix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="reading" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hystrix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="reading" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Hystrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="reading" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="reading" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Hystrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.netflix.hystrix:hystrix-core:1.5.4" type="70bed36:NamedLibraryElementNode" />
+              <item name="Hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="reading" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -225,7 +307,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556579795874" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556581409321" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -233,6 +315,15 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="first" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\carlos.palma\Hystrix\bookstore\src\main\resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -246,10 +337,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HystrixTest.givenCircuitBreakerSetup_whenRemoteSvcCmdExecuted_thenReturnSuccess">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Hystrix" />
+  <component name="RunManager" selected="Application.ReadingApplication">
+    <configuration name="BookstoreApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bookstore.BookstoreApplication" />
+      <module name="bookstore" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bookstore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadingApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reading.ReadingApplication" />
+      <module name="reading" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -261,10 +366,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HystrixTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Hystrix" />
+      <option name="PACKAGE_NAME" value="first" />
+      <option name="MAIN_CLASS_NAME" value="first.HystrixTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HystrixTest.givenCircuitBreakerSetup_whenRemoteSvcCmdExecuted_thenReturnSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Hystrix" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HystrixTest" />
+      <option name="PACKAGE_NAME" value="first" />
+      <option name="MAIN_CLASS_NAME" value="first.HystrixTest" />
       <option name="METHOD_NAME" value="givenCircuitBreakerSetup_whenRemoteSvcCmdExecuted_thenReturnSuccess" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -272,33 +387,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HystrixTest.givenSvcTimeoutOf100AndDefaultSettings_whenRemoteSvcExecuted_thenReturnSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HystrixTest.givenSvcTimeoutOf5000AndExecTimeoutOf10000_whenRemoteSvcExecuted_thenReturnSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Hystrix" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HystrixTest" />
-      <option name="METHOD_NAME" value="givenSvcTimeoutOf100AndDefaultSettings_whenRemoteSvcExecuted_thenReturnSuccess" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HystrixTest.givenSvcTimeoutOf15000AndExecTimeoutOf5000_whenRemoteSvcExecuted_thenExpectHre" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Hystrix" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HystrixTest" />
-      <option name="METHOD_NAME" value="givenSvcTimeoutOf15000AndExecTimeoutOf5000_whenRemoteSvcExecuted_thenExpectHre" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HystrixTest.testAsynchronous2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Hystrix" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HystrixTest" />
-      <option name="METHOD_NAME" value="testAsynchronous2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="first.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="first" />
+      <option name="MAIN_CLASS_NAME" value="first.HystrixTest" />
+      <option name="METHOD_NAME" value="givenSvcTimeoutOf5000AndExecTimeoutOf10000_whenRemoteSvcExecuted_thenReturnSuccess" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -321,19 +420,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.HystrixTest.givenSvcTimeoutOf100AndDefaultSettings_whenRemoteSvcExecuted_thenReturnSuccess" />
-      <item itemvalue="JUnit.HystrixTest.givenSvcTimeoutOf15000AndExecTimeoutOf5000_whenRemoteSvcExecuted_thenExpectHre" />
-      <item itemvalue="JUnit.HystrixTest.testAsynchronous2" />
       <item itemvalue="JUnit.HystrixTest.givenCircuitBreakerSetup_whenRemoteSvcCmdExecuted_thenReturnSuccess" />
+      <item itemvalue="JUnit.HystrixTest" />
+      <item itemvalue="JUnit.HystrixTest.givenSvcTimeoutOf5000AndExecTimeoutOf10000_whenRemoteSvcExecuted_thenReturnSuccess" />
+      <item itemvalue="Application.ReadingApplication" />
+      <item itemvalue="Application.BookstoreApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReadingApplication" />
+        <item itemvalue="Application.BookstoreApplication" />
+        <item itemvalue="JUnit.HystrixTest" />
         <item itemvalue="JUnit.HystrixTest.givenCircuitBreakerSetup_whenRemoteSvcCmdExecuted_thenReturnSuccess" />
-        <item itemvalue="JUnit.HystrixTest.givenSvcTimeoutOf15000AndExecTimeoutOf5000_whenRemoteSvcExecuted_thenExpectHre" />
-        <item itemvalue="JUnit.HystrixTest.givenSvcTimeoutOf100AndDefaultSettings_whenRemoteSvcExecuted_thenReturnSuccess" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.HystrixTest.testAsynchronous2" />
+        <item itemvalue="JUnit.HystrixTest.givenSvcTimeoutOf5000AndExecTimeoutOf10000_whenRemoteSvcExecuted_thenReturnSuccess" />
       </list>
     </recent_temporary>
   </component>
@@ -350,24 +449,17 @@
       <workItem from="1544455709168" duration="8582000" />
       <workItem from="1544537318829" duration="3896000" />
     </task>
+    <task id="LOCAL-00001" summary="test demonstrating short-circuiting of a remote call">
+      <created>1556579806661</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1556579806661</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HystrixTest_testAsynchronous2 - 2018.12.11 at 10h 05m 15s.xml">
-      <configuration name="HystrixTest.testAsynchronous2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HystrixTest_givenSvcTimeoutOf100AndDefaultSettings_whenRemoteSvcExecuted_thenReturnSuccess - 2019.04.29 at 17h 17m 56s.xml">
-      <configuration name="HystrixTest.givenSvcTimeoutOf100AndDefaultSettings_whenRemoteSvcExecuted_thenReturnSuccess" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HystrixTest_givenSvcTimeoutOf15000AndExecTimeoutOf5000_whenRemoteSvcExecuted_thenExpectHre - 2019.04.29 at 17h 30m 24s.xml">
-      <configuration name="HystrixTest.givenSvcTimeoutOf15000AndExecTimeoutOf5000_whenRemoteSvcExecuted_thenExpectHre" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HystrixTest_givenSvcTimeoutOf15000AndExecTimeoutOf5000_whenRemoteSvcExecuted_thenExpectHre - 2019.04.29 at 17h 30m 40s.xml">
-      <configuration name="HystrixTest.givenSvcTimeoutOf15000AndExecTimeoutOf5000_whenRemoteSvcExecuted_thenExpectHre" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HystrixTest_givenSvcTimeoutOf15000AndExecTimeoutOf5000_whenRemoteSvcExecuted_thenExpectHre - 2019.04.29 at 17h 32m 17s.xml">
-      <configuration name="HystrixTest.givenSvcTimeoutOf15000AndExecTimeoutOf5000_whenRemoteSvcExecuted_thenExpectHre" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="HystrixTest_givenSvcTimeoutOf15000AndExecTimeoutOf5000_whenRemoteSvcExecuted_thenExpectHre - 2019.04.29 at 17h 33m 01s.xml">
       <configuration name="HystrixTest.givenSvcTimeoutOf15000AndExecTimeoutOf5000_whenRemoteSvcExecuted_thenExpectHre" configurationId="JUnit" />
     </history-entry>
@@ -383,6 +475,21 @@
     <history-entry file="HystrixTest_givenCircuitBreakerSetup_whenRemoteSvcCmdExecuted_thenReturnSuccess - 2019.04.29 at 18h 13m 40s.xml">
       <configuration name="HystrixTest.givenCircuitBreakerSetup_whenRemoteSvcCmdExecuted_thenReturnSuccess" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="HystrixTest - 2019.04.29 at 18h 24m 02s.xml">
+      <configuration name="HystrixTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HystrixTest_givenSvcTimeoutOf5000AndExecTimeoutOf10000_whenRemoteSvcExecuted_thenReturnSuccess - 2019.04.29 at 18h 24m 37s.xml">
+      <configuration name="HystrixTest.givenSvcTimeoutOf5000AndExecTimeoutOf10000_whenRemoteSvcExecuted_thenReturnSuccess" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HystrixTest - 2019.04.29 at 18h 24m 49s.xml">
+      <configuration name="HystrixTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HystrixTest_givenCircuitBreakerSetup_whenRemoteSvcCmdExecuted_thenReturnSuccess - 2019.04.29 at 18h 25m 44s.xml">
+      <configuration name="HystrixTest.givenCircuitBreakerSetup_whenRemoteSvcCmdExecuted_thenReturnSuccess" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HystrixTest - 2019.04.29 at 18h 26m 02s.xml">
+      <configuration name="HystrixTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="12478000" />
@@ -391,7 +498,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -402,7 +509,7 @@
       <window_info anchor="bottom" id="SonarQube" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32827735" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32827735" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39978212" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -411,7 +518,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.32827735" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32827735" />
       <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -463,37 +570,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CommandHelloWorld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/RemoteServiceTestSimulator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/RemoteServiceTestCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.1.8/rxjava-1.1.8.jar!/rx/Observable.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -501,10 +577,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CommandHelloWorldObservable.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/first/CommandHelloWorld.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        <state relative-caret-position="110">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/first/CommandHelloWorldObservable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/first/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/first/RemoteServiceTestCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/first/RemoteServiceTestSimulator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/first/HystrixTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1936">
+          <caret line="104" column="8" selection-start-line="104" selection-start-column="8" selection-end-line="104" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -513,17 +633,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+        <state relative-caret-position="145">
+          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/HystrixTest.java">
+    <entry file="file://$PROJECT_DIR$/reading/reading.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reading/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="116" column="11" selection-start-line="116" selection-start-column="11" selection-end-line="116" selection-end-column="11" />
+        <state relative-caret-position="440">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookstore/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookstore/src/main/java/bookstore/BookstoreApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#509#510#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookstore/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reading/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reading/src/main/java/reading/ReadingApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="18" column="57" lean-forward="true" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#711#712#0" expanded="true" />
+            <element signature="e#780#781#0" expanded="true" />
           </folding>
         </state>
       </provider>
